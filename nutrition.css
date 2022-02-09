@@ -1,0 +1,94 @@
+* {box-sizing: border-box;
+    
+}
+body {
+       background-color: #E9F9F9;
+       color: #D5E3FF;
+       font-family: Georgia, Arial, sans-serif; 
+}
+header {background-color: #0EF4A4;
+        color: #FFFFFF;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+}
+h1 {font-size: 3em;
+    padding: 10px;
+    line-height: 150%;
+    text-shadow:#CCCCCC;
+    text-align: center;
+    text-decoration-color: darkgray;
+}
+nav {overflow: hidden;
+    background-color: #ECE7DD;
+    text-align: center;
+}
+nav ul { list-style-type: none;
+         text-decoration: none;
+}
+nav a:link { color: #3262A3;
+            text-align: center;
+}
+nav a:visited { color:#6699FF;
+                text-align: center;
+}
+nav a:hover { color:#CCCCCC;
+              text-align: center;
+}
+.category {font-weight: bold;
+           background-color: #EAF5EA;
+           color: coral;
+           font-size: 1.1em;
+           text-shadow: 1px 1px 1px #667;
+            text-align: center;
+}
+footer {padding: 10px;
+        
+        font-size: 0.7em;
+        font-style:italic;  
+        display: block;
+        text-align: center;
+}
+table {
+        border-color: #0CF00C;
+        border-width: 2px;
+        border-collapse: collapse;
+        border-style: double;
+        text-decoration-color:coral;
+}
+td {
+        padding: 0.5em;
+        border: 1px;
+        border-color: #0CF00C;
+        border-style: solid;
+        text-decoration-color:coral;
+}
+th {
+        padding: 0.5em;
+        border: 1px;
+        border-color: #0CF00C;
+        border-style: solid;
+        text-decoration-color:coral;
+}
+
+textarea {
+        display: block;
+        margin-bottom: 1em;
+}
+
+#property {
+        background-color: #FFFFFF;
+        color: #000066;
+        width: 80%;
+        min-width: 700px;
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;    
+        align-content: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
